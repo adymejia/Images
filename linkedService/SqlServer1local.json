@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1local",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-3KGG1J3.northamerica.corp.microsoft.com,64811;initial catalog=AdventureWorks2014;user id=test",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4MjViYTg2ZC03NGIxLTQxYTgtYjEzYi1lYTdkYTY1YjVjZjciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "agmIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

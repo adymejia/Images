@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_vyd",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2020-04-22T17:42:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
